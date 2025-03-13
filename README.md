@@ -22,7 +22,7 @@ sequenceDiagram
   Note right of browser:Browser starts executing the javascript code that fetches the JSON from the server
   
   browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
-  activate browser
+  activate server
   server->>browser: content[{"content":HTML is easy but JS is hard","date":"2025-3-12"},...]
   deactivate server
 
