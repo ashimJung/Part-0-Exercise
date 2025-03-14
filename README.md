@@ -32,7 +32,7 @@ sequenceDiagram
   participant browser
   participant server
 
-  User->>browser:GET:GET https://studies.cs.helsinki.fi/exampleapp/spa
+  User->>browser:GET https://studies.cs.helsinki.fi/exampleapp/spa
   browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/spa
   activate server
   server->>browser :https://studies.cs.helsinki.fi/exampleapp/spa
