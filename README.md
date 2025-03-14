@@ -1,4 +1,4 @@
-# Part-0.4-Sequence-Diagram
+# Part-0.4,0.5,0.6-Sequence-Diagram
 ```mermaid
 sequenceDiagram
   participant browser
