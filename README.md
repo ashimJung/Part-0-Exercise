@@ -25,5 +25,17 @@ sequenceDiagram
   activate server
   server->>browser: content[{"content":HTML is easy but JS is hard","date":"2025-3-12"},...]
   deactivate server
+```
+```mermaid
+sequenceDiagram
+  participant User
+  participant browser
+  participant server
 
- 
+  User->>browser
+  browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/spa
+  activate server
+  server->>browser:HTML document
+  deactivate server
+
+
